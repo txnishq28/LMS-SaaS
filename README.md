@@ -1,170 +1,83 @@
 <div align="center">
   <br />
-      <img src="public/readme/hero.webp" alt="Project Banner">
+    <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank">
+      <img src="public/readme/hero.png" alt="Project Banner">
+    </a>
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"/>
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <br/>
-    <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white">
-    <img src="https://img.shields.io/badge/-Better_Auth-black?style=for-the-badge&logoColor=white&logo=betterauth&color=black"/>
-    <img src="https://img.shields.io/badge/-Drizzle-black?style=for-the-badge&logoColor=C5F74F&logo=drizzle&color=black"/>
+    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&logo=vapi.com&color=green" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </div>
 
-  <h3 align="center">Nike Ecommerce</h3>
+  <h3 align="center">SaaS App - LMS with Next.js, Supabase & Payments</h3>
 
    <div align="center">
-     A modern, full-stack Next.js eCommerce project built with TypeScript, Drizzle ORM, TailwindCSS, Better Auth, and PostgreSQL.
+     This project is built step-by-step in a detailed tutorial available on YouTube.
    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. ✨ [Introduction](#introduction)
+1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🔗 [Assets](#links)
 6. 🚀 [More](#more)
 
----
+## 🚨 Tutorial
 
-## <a name="introduction">✨ Introduction</a>
+This repository contains the code corresponding to an in-depth tutorial available on YouTube.
 
-A Nike-style eCommerce store built using Next.js, TypeScript, TailwindCSS, Drizzle ORM, and Better Auth.  
-The backend runs on Neon PostgreSQL, authentication is handled via Better Auth, and global state is managed with Zustand.  
-The project follows a scalable architecture with reusable components and a clean UI.
+If you prefer visual learning, this is the perfect resource for you.
 
-If you need help or face bugs, feel free to explore developer communities online for support.
+<a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
----
+## <a name="introduction">🤖 Introduction</a>
+
+Create an LMS SaaS app from scratch featuring user authentication, subscriptions, and payments using Next.js, Supabase, and Stripe! You'll build and deploy a real-time teaching platform with Vapi, integrate an AI vocal agent, and deliver seamless, interactive learning sessions.
+
+If you're getting started and need assistance or face any bugs, you may join any developer community for help.
+
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **Better Auth** – Authentication & authorization for TypeScript apps.
-- **Drizzle ORM** – Type-safe, lightweight TypeScript ORM.
-- **Neon PostgreSQL** – Serverless, scalable Postgres database.
-- **Next.js** – React framework with server components & routing.
-- **TailwindCSS** – Utility-first CSS framework for rapid UI development.
-- **TypeScript** – Type-safe JavaScript for large-scale applications.
-- **Zustand** – Minimal, fast state management for React.
-
----
+- **Clerk** — User authentication, management, and billing with embeddable UI components.
+- **Next.js** — Full-stack React framework for scalable web apps.
+- **Sentry** — Error tracking and performance monitoring.
+- **shadcn/ui** — Modern, customizable component library built on Radix UI & Tailwind.
+- **Supabase** — Open-source backend platform with PostgreSQL, APIs, and auth.
+- **Tailwind CSS** — Utility-first styling framework.
+- **TypeScript** — Strongly typed JavaScript.
+- **Vapi** — Low-latency AI voice agent platform.
+- **Zod** — TypeScript-first schema validation library.
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Landing Page** — Responsive, animated homepage showcasing brand identity.  
-👉 **Product Listing** — Product gallery with filtering and category options.  
-👉 **Product Details** — High-quality images, details, and reviews.  
-👉 **Auth Pages** — Secure login, signup, and password recovery using Better Auth.  
-👉 **Modular Architecture** — Clean folder structure with reusable components.  
+👉 **AI Voice Agents** – Take tutoring sessions with voiced AI tutors.  
+👉 **Authentication** – Secure login & signup using Clerk.  
+👉 **Billing & Subscriptions** – Manage plans and payments.  
+👉 **Bookmarks & History** – Save tutors and revisit past sessions.  
+👉 **Create a Tutor** – Build your own AI tutors with topics & conversation styles.  
+👉 **Cross-Device Compatibility** – Fully responsive.  
+👉 **Database Integration** – Real-time updates powered by Supabase.  
+👉 **Modern UI/UX** – Clean design with Tailwind + shadcn/ui.  
+👉 **Search Functionality** – Find tutors quickly.  
+👉 **Scalable Architecture** – Powered by Next.js.
 
----
+…and much more.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
 ### **Prerequisites**
-
-Install:
-
 - Git  
 - Node.js  
 - npm  
 
 ### **Cloning the Repository**
-
 ```bash
-git clone YOUR_REPO_URL_HERE
-cd e-commerce
-```
-
-### **Installation**
-
-```bash
-npm install
-```
-
-### **Environment Variables**
-
-Create a `.env` file:
-
-```env
-# Database
-DATABASE_URL="postgresql://username:password@host:port/database"
-
-# Better Auth
-BETTER_AUTH_SECRET="your-secret-key"
-BETTER_AUTH_URL="http://localhost:3000"
-
-# GitHub OAuth (optional)
-GITHUB_CLIENT_ID=""
-GITHUB_CLIENT_SECRET=""
-
-# Google OAuth (optional)
-GOOGLE_CLIENT_ID=""
-GOOGLE_CLIENT_SECRET=""
-```
-
-### **Run the Project**
-
-```bash
-npm run dev
-```
-
-Visit:  
-**http://localhost:3000**
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── api/auth/[...all]/route.ts
-│   └── page.tsx
-├── lib/
-│   ├── auth/
-│   │   └── index.ts
-│   └── db/
-│       ├── index.ts
-│       └── schema.ts
-└── store/
-    ├── auth.ts
-    └── cart.ts
-```
-
----
-
-## 🗄️ Database Schema
-
-- **users**  
-- **sessions**  
-- **accounts**  
-- **verifications**  
-- **products**  
-- **orders**  
-- **order_items**
-
----
-
-## <a name="links">🔗 Assets</a>
-
-All assets used in the project are included in the `public/readme` folder.
-
----
-
-## <a name="more">🚀 More</a>
-
-Work on expanding the project with:
-
-- Admin dashboard  
-- Product inventory  
-- Order management  
-- Payment gateway integration  
-- Search & filtering  
-- Image gallery sliders  
-
----
-
+git clone https://github.com/adrianhajdin/saas-app.git
+cd saas-app
